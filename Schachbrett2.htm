@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KevChess</title>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+body > div {
+    height: 100vh;
+    width: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+}
+.chess-border {
+    border: 1px solid black;
+    height: 80%;
+    width: 80%;
+}
+.chess-border > div {
+    height: 12.5%;
+    display: flex;
+    background: rgb(230, 204, 179);
+}
+.row div {
+    border: 1px solid black;
+    height: 100%;
+    width: 12.5%;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+.row2 div {
+    border: 1px solid black;
+    height: 100%;
+    width: 12.5%;
+    font-size: 4em;
+}
+.row div:nth-child(even) {
+    background: rgb(134, 89, 45);
+}
+.row2 div:nth-child(odd) {
+    background: rgb(134, 89, 45);
+}
+</style>
+</head>
+<body>
+
+<div>
+    <div class="chess-border">
+        <div class="row">
+            <div>&#9814;</div>
+            <div>&#9816;</div>
+            <div>&#9815;</div>
+            <div>&#9812;</div>
+            <div>&#9813;</div>
+            <div>&#9815;</div>
+            <div>&#9816;</div>
+            <div>&#9814;</div>
+        </div>        
+        <div class="row2">
+            <div>&#9817;</div>
+            <div>&#9817;</div>
+            <div>&#9817;</div>
+            <div>&#9817;</div>
+            <div>&#9817;</div>
+            <div>&#9817;</div>
+            <div>&#9817;</div>
+            <div>&#9817;</div>
+        </div>
+        <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div>&#9823;</div>
+            <div>&#9823;</div>
+            <div>&#9823;</div>
+            <div>&#9823;</div>
+            <div>&#9823;</div>
+            <div>&#9823;</div>
+            <div>&#9823;</div>
+            <div>&#9823;</div>
+        </div>
+        <div class="row2">
+            <div>&#9820;</div>
+            <div>&#9822;</div>
+            <div>&#9821;</div>
+            <div>&#9818;</div>
+            <div>&#9819;</div>
+            <div>&#9821;</div>
+            <div>&#9822;</div>
+            <div>&#9820;</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
