@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KevChess</title>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+body > div {
+    height: 100vh;
+    width: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+}
+.chess-border {
+    border: 1px solid black;
+    height: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background: rgb(230, 204, 179);
+}
+/* .chess-border > div {
+    height: 12.5%;
+    display: flex;
+    background: rgb(230, 204, 179);
+}
+.row div, .row2 div {
+    border: 1px solid black;
+    height: 100%;
+    width: 12.5%;
+    font-size: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .row div:nth-child(even) {
+    background: rgb(134, 89, 45);
+} */
+/* .row2 div:nth-child(odd) {
+    background: rgb(134, 89, 45);
+} */
+.chess-border div {
+    font-size: 8vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chess-brown {
+    background: rgb(134, 89, 45);
+}
+</style>
+</head>
+<body>
+
+<div>
+    <div class="chess-border">
+        <!-- <div class="row"> -->
+            <div>&#9814;</div>
+            <div class="chess-brown">&#9816;</div>
+            <div>&#9815;</div>
+            <div class="chess-brown">&#9812;</div>
+            <div>&#9813;</div>
+            <div class="chess-brown">&#9815;</div>
+            <div>&#9816;</div>
+            <div class="chess-brown">&#9814;</div>
+        <!-- </div>        
+        <div class="row2"> -->
+            <div class="chess-brown">&#9817;</div>
+            <div>&#9817;</div>
+            <div class="chess-brown">&#9817;</div>
+            <div>&#9817;</div>
+            <div class="chess-brown">&#9817;</div>
+            <div>&#9817;</div>
+            <div class="chess-brown">&#9817;</div>
+            <div>&#9817;</div>
+        <!-- </div>
+        <div class="row"> -->
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+        <!-- </div>
+        <div class="row2"> -->
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+        <!-- </div>
+        <div class="row"> -->
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+        <!-- </div>
+        <div class="row2"> -->
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+            <div class="chess-brown"></div>
+            <div></div>
+        <!-- </div>
+        <div class="row"> -->
+            <div>&#9823;</div>
+            <div class="chess-brown">&#9823;</div>
+            <div>&#9823;</div>
+            <div class="chess-brown">&#9823;</div>
+            <div>&#9823;</div>
+            <div class="chess-brown">&#9823;</div>
+            <div>&#9823;</div>
+            <div class="chess-brown">&#9823;</div>
+        <!-- </div>
+        <div class="row2"> -->
+            <div class="chess-brown">&#9820;</div>
+            <div>&#9822;</div>
+            <div class="chess-brown">&#9821;</div>
+            <div>&#9818;</div>
+            <div class="chess-brown">&#9819;</div>
+            <div>&#9821;</div>
+            <div class="chess-brown">&#9822;</div>
+            <div>&#9820;</div>
+        <!-- </div> -->
+    </div>
+</div>
+
+</body>
+</html>
